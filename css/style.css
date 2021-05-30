@@ -216,7 +216,9 @@ nav img {
   width: 60%;
   margin: auto;
   text-align: left;
-  padding-top: 100px;
+  background: #fff;
+  border-radius: 5px;
+  padding: 5px;
 }
 .event-list .elemets {
   padding: 10px;
@@ -229,32 +231,32 @@ nav img {
   transition: 1s;
 }
 .event-list .elemets:hover {
-  border: 1px solid green;
+  border: 1px solid black;
   box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
-.event-list .elemets:hover::after {
+/* .event-list .elemets:hover::after {
   text-align: right;
   content: "Seats Available";
   background: green;
-}
+} */
 .register-form {
   font-family: "Poppins", sans-serif !important;
   display: flex;
-  height: 50vh;
+  height: auto;
   justify-content: center;
-  background: #fff;
-
+  background: linear-gradient(11deg, #c14e29ed, #ebd5de);
   align-items: center;
   padding-top: 50px;
 }
 .register-form .main-content {
   max-width: 700px;
   width: 100%;
-  background: linear-gradient(135deg, #79c1dd, #f42b78);
   padding: 25px 30px;
   border-radius: 5px;
   margin: auto;
   font-family: "Poppins", sans-serif !important;
+  background: #fff;
+  background-size: cover;
 }
 .register-form .main-content .form-head {
   font-size: 25px;
@@ -402,4 +404,25 @@ input[type="radio"] {
 }
 option {
   font-family: "Poppins", sans-serif !important;
+}
+.event-list .event-header {
+  font-size: 2rem;
+  position: relative;
+  margin-bottom: 10px;
+  color: #777;
+  padding: 10px;
+}
+.event-list .event-header::before {
+  content: "";
+  position: absolute;
+  left: 10px;
+  bottom: 0;
+  height: 3px;
+  width: 30px;
+  background: #777;
+}
+.event-background {
+  text-align: center;
+  background: linear-gradient(11deg, #c14e29ed, #ebd5de);
+  padding-top: 50px;
 }
