@@ -101,4 +101,7 @@ h1 {
   nav img {
     display: none;
   }
+  .nav-links {
+    text-align: center;
+  }
 }
