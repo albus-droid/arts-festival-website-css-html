@@ -1,7 +1,96 @@
-.text-box{
+.header {
+  width: 100%;
+  height: auto;
+}
+.text-box {
+  text-align: center;
+}
+.text-box h1 {
+  font-size: 20px;
+}
+.image img {
+  display: none;
+}
+.about iframe {
+  width: auto;
+  height: auto;
+}
+nav img {
+  width: auto;
+  height: 60px;
+}
+#hero-head {
+  font-size: 2rem;
+}
+#inline-head {
+  font-size: 2rem;
+}
+#some-head {
+  font-size: 2rem;
+}
+.text-box p {
+  font-size: 1rem;
+}
+.hero-btn {
+  font-size: 0.75rem;
+}
+.block-media {
+  text-align: center;
+  font-size: 1rem;
+}
+.about {
+  width: 100%;
+}
+#about-head,
+#events-head {
+  font-size: 2rem;
+  padding-top: 0px;
+}
+.about-us {
+  display: block;
+  width: 100%;
+  margin: auto;
+  padding: 0px;
+}
+.about-us img {
+  width: 100%;
+  height: 100%;
+}
+.about-us .about-college {
+  padding-top: 10px;
+  transform: translateY(0px);
+}
+.row {
+  display: block;
+}
+.events {
+  padding-top: 20px;
+  width: 100%;
+}
+.footer__tech .logo-wrapper .logo-bg {
+  display: none;
+}
+.footer__tech {
+  display: block;
+}
+.content__heading {
+  text-align: center;
+}
+.content__paragraph {
 	text-align: center;
 }
-.text-box h1{
-	font-size:20px ;
-
+.event-background{
+	background: none;
+}
+.register-form{
+	background: none;
+}
+#contact-heading{
+	font-size: 0.5rem;
+}
+h1{
+	font-size: 1.5rem;
+}
+.event-list{
+	width: 80%;
 }
