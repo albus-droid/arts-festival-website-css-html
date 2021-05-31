@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');* {
+@import url("https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap");
+* {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -63,7 +64,8 @@ nav img {
 }
 .text-box h1 {
   font-size: 62px;
-  font-family: 'Homemade Apple', cursive;}
+  font-family: "Homemade Apple", cursive;
+}
 
 .text-box p {
   margin: 10px 0 40px;
@@ -138,13 +140,17 @@ nav img {
   transition: 0.5s;
 }
 .layer:hover {
-  background: rgba(226, 0, 0, 0.7);
+  background: linear-gradient(
+    60deg,
+    rgba(7, 5, 29, 0.828),
+    rgb(7, 5, 29, 0.335)
+  );
 }
 .layer h3,
 .layer p {
   width: 100%;
   font-weight: 500;
-  color: #fff;
+  color: rgb(255, 249, 249);
   font-size: 26px;
   bottom: 0;
   left: 50%;
@@ -252,9 +258,10 @@ nav img {
   display: flex;
   height: auto;
   justify-content: center;
-  background: linear-gradient(11deg, #c14e29ed, #ebd5de);
+  background: linear-gradient(to right, #b79891, #94716b); 
   align-items: center;
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 .register-form .main-content {
   max-width: 700px;
@@ -401,7 +408,7 @@ input[type="radio"] {
   width: 100%;
   outline: none;
   color: #fff;
-  background: #f42b78;
+  background: linear-gradient(11deg, #d831caed, #ebd5de);
   border: none;
   font-size: 20px;
   font-weight: 500;
@@ -409,6 +416,9 @@ input[type="radio"] {
   border-radius: 30px;
   cursor: pointer;
   font-family: "Poppins", sans-serif !important;
+}
+.register-button input:hover {
+  background: linear-gradient(359deg, #d831caed, #ebd5de);
 }
 option {
   font-family: "Poppins", sans-serif !important;
@@ -431,8 +441,9 @@ option {
 }
 .event-background {
   text-align: center;
-  background: linear-gradient(11deg, #c14e29ed, #ebd5de);
+  background: linear-gradient(to right, #b79891, #94716b); 
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 .image img {
   object-fit: cover;
@@ -458,7 +469,7 @@ option {
 .about-us {
   display: flex;
   width: 80%;
-  justify-content: space-between;
+  justify-content: space-around;
   text-align: center;
   margin: auto;
   padding: 10px;
@@ -467,7 +478,7 @@ option {
   margin-top: 20px;
 }
 .about-us .about-college {
-  transform: translateY(350px);
+  transform: translateY(200px);
 }
 #mbits {
   color: #eab411;
@@ -556,11 +567,37 @@ option {
 #inline-head {
   display: inline;
   font-size: 5rem;
-
 }
 #some-head {
   color: darkkhaki;
   display: inline;
   font-size: 5rem;
-
+}
+.location {
+  width: 80%;
+  margin: auto;
+  padding: 80px 0;
+}
+.location iframe {
+  width: 100%;
+}
+.contact-us {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.contact-us .contact {
+  padding: 10px;
+}
+.contact-head {
+  text-align: center;
+  padding-top: 80px;
+}
+.contact a {
+  color: #000;
+  text-decoration: none;
+  padding-bottom: 5px;
+}
+.contact h3,
+.contact h4 {
+  font-family: "Poppins", sans-serif !important;
 }
