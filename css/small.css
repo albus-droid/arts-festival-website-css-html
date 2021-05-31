@@ -77,20 +77,28 @@ nav img {
   text-align: center;
 }
 .content__paragraph {
-	text-align: center;
+  text-align: center;
 }
-.event-background{
-	background: none;
+.event-background {
+  background: none;
 }
-.register-form{
-	background: none;
+.register-form {
+  background: none;
 }
-#contact-heading{
-	font-size: 0.5rem;
+#contact-heading {
+  font-size: 0.5rem;
 }
-h1{
-	font-size: 1.5rem;
+h1 {
+  font-size: 1.5rem;
 }
-.event-list{
-	width: 80%;
+.event-list {
+  width: 80%;
+}
+.nav-links {
+  flex: auto;
+}
+@media only screen and (max-width: 362px) {
+  nav img {
+    display: none;
+  }
 }
