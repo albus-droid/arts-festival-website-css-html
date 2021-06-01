@@ -1,2 +1,2 @@
 # new-work
- Website Design
+Static arts festival website made using CSS/HTML
