@@ -1,2 +1,2 @@
-# new-work
-Static arts festival website made using CSS/HTML
+# Static arts festival website made using CSS/HTML
+* website is responsive
